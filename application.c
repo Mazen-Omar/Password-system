@@ -7,7 +7,7 @@
 #include "application.h"
 
 
-/* ------------------------- Global variables -------------------------*/
+/* ------------------------- Macro declaration -------------------------*/
 #define _CURSOR             2
 #define PASSWORD_LENGTH     5
 
