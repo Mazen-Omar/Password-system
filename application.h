@@ -1,7 +1,7 @@
 /* 
  * File:   application.h
  * Author: Mr_Alsaied
- *
+ * https://www.linkedin.com/in/mazen-omar-7610a9234/
  * Created on November 16, 2023, 12:24 AM
  */
 
@@ -26,6 +26,9 @@
 /* Section : Data Types Declaration */
 extern keypad_t keypad;
 extern lcd_4bit_t lcd;
+extern led_t led1;
+extern led_t led2;
+extern Button_t start_button;
 
 /* Section : Function Declaration */
 void application_initialize(void);
