@@ -1,6 +1,6 @@
 # Password System 
 
-![image](https://github.com/Mazen-Omar/Password-system/assets/112568201/a59990a0-70e7-4c0c-95a9-7bd1de98d0d8)
+![image](https://github.com/Mazen-Omar/Password-system/assets/112568201/760cf31e-7f80-492e-88d7-76372bd0cb3b)
 
 This is a password system implementation using an LCD display, a keypad, and some buttons. The system allows the user to set a password, enter the password, and provides feedback on whether the password is correct or not.
 
