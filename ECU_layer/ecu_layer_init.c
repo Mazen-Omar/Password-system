@@ -1,7 +1,7 @@
 /* 
  * File:   ecu_layer_init.c
  * Author: Mr_Alsaied
- *
+ * https://www.linkedin.com/in/mazen-omar-7610a9234/
  * Created on 08 February, 2024, 09:13 PM
  */
 
@@ -72,9 +72,26 @@ keypad_t keypad = {
 };
 
 
+led_t led1 = {.port = PORTD_INDEX, .pin = GPIO_PIN6, .status = LED_OFF};
+led_t led2 = {.port = PORTD_INDEX, .pin = GPIO_PIN7, .status = LED_OFF};
+
+Button_t start_button = 
+{
+    .button.port = PORTB_INDEX, 
+    .button.pin = GPIO_PIN0,
+    .button.logic = GPIO_LOW,
+    .button.direction = GPIO_DIRECTION_INPUT,
+    .active = BUTTON_ACTIVE_HIGH,
+    .state = BUTTON_RELEASED
+};
+
+
 void ecu_layer_initailize(void)
 {
     Std_ReturnType ret = E_NOT_OK;
     ret = lcd_4bit_initialize(&lcd);
     ret = keypad_initialize(&keypad);
+    ret = led_initialize(&led1);
+    ret = led_initialize(&led2);
+    ret = Button_initialize(&start_button);
 }
