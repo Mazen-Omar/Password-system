@@ -132,6 +132,7 @@ int main()
                 lcd_4bit_send_string_pos(&lcd, 1 , 8, "Hello!");
                 select = 0;
                 __delay_ms(RESTART_TIMER*1000);
+                ret = led_turn_off(&led1);
                 goto begin;
             }
             tries--;
@@ -269,13 +270,13 @@ Std_ReturnType start_system(lcd_4bit_t* LCD, keypad_t* *key)
         {
             ret = lcd_4bit_send_string_pos(&lcd, 3, 1,  "3) Clear password");
         }
-        lcd_4bit_send_string_pos(LCD, 1, 1, "1) Set password");
-        lcd_4bit_send_string_pos(LCD, 2, 1, "2) Enter password");
+        ret = lcd_4bit_send_string_pos(LCD, 1, 1, "1) Set password");
+        ret = lcd_4bit_send_string_pos(LCD, 2, 1, "2) Enter password");
         while(!select)
         {
             ret = keypad_get_value(key, &select);
         }
-        select = select - 48;
+        select -= 48;
         __delay_ms(150);
     }
     return ret;
