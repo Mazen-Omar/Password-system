@@ -35,7 +35,9 @@ Press the start button to begin.
 Select the desired option using the keypad:
 
 **Option 1:** Set a password.
+
 **Option 2:** Enter a password.
+
 **Option 3:** Clear the password.
 
 Follow the instructions on the LCD display to set or enter the password.
