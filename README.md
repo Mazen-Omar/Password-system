@@ -8,18 +8,18 @@ Enter a password: The user can enter a password to check if it matches the set p
 
 Password comparison: The system compares the entered password with the set password and provides feedback on whether the password is correct or not.
 
-Retry mechanism: If the user enters an incorrect password, they are given a certain number of tries before they have to wait for a specific duration. After each attempt, the LCD is cleared, and the remaining tries are displayed.
+## Retry mechanism: If the user enters an incorrect password, they are given a certain number of tries before they have to wait for a specific duration. After each attempt, the LCD is cleared, and the remaining tries are displayed.
 
 Restart after successful login: If the user enters the correct password, they are greeted with a message, and the system restarts after a certain duration.
 
-Hardware Requirements
-LCD display: The system requires an LCD display to show messages and password input/output.
+## Hardware Requirements
+#### LCD display: The system requires an LCD display to show messages and password input/output.
 
-Keypad: A keypad is needed for the user to enter the password.
+#### Keypad: A keypad is needed for the user to enter the password.
 
-Buttons: Start button and other buttons for navigation and system control.
+#### Buttons: Start button and other buttons for navigation and system control.
 
-Usage
+## Usage
 Connect the LCD display, keypad, and buttons to the appropriate pins of your microcontroller or development board.
 
 Compile and upload the code to your microcontroller or development board.
