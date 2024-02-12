@@ -1,7 +1,7 @@
-#Password System 
+# Password System 
 This is a password system implementation using an LCD display, a keypad, and some buttons. The system allows the user to set a password, enter the password, and provides feedback on whether the password is correct or not.
 
-##Features
+## Features
 Set a password: The user can set a password by entering it using the keypad. The entered password is displayed on the LCD as asterisks.
 
 Enter a password: The user can enter a password to check if it matches the set password. The entered password is also displayed as asterisks.
