@@ -5,17 +5,17 @@
 This is a password system implementation using an LCD display, a keypad, and some buttons. The system allows the user to set a password, enter the password, and provides feedback on whether the password is correct or not.
 
 ## Features
-🔒 Set a password: The user can set a password by entering it using the keypad. The entered password is displayed on the LCD as asterisks.
+🔒  **Set a password:** The user can set a password by entering it using the keypad. The entered password is displayed on the LCD as asterisks.
 
-🔑 Enter a password: The user can enter a password to check if it matches the set password. The entered password is also displayed as asterisks.
+🔑 **Enter a password:** The user can enter a password to check if it matches the set password. The entered password is also displayed as asterisks.
 
-🔍 Password comparison: The system compares the entered password with the set password and provides feedback on whether the password is correct or not.
+🔍 **Password comparison:** The system compares the entered password with the set password and provides feedback on whether the password is correct or not.
 
-🔁 Retry mechanism: If the user enters an incorrect password, they are given a certain number of tries before they have to wait for a specific duration. After each attempt, the LCD is cleared, and the remaining tries are displayed.
+🔁 **Retry mechanism:** If the user enters an incorrect password, they are given a certain number of tries before they have to wait for a specific duration. After each attempt, the LCD is cleared, and the remaining tries are displayed.
 
-♻️ Restart after successful login: If the user enters the correct password, they are greeted with a message, and the system restarts after a certain duration.
+♻️ **Restart after successful login:** If the user enters the correct password, they are greeted with a message, and the system restarts after a certain duration.
 
-🛠️ Customizable and Expandable: Adapt the system to your specific requirements and integrate it seamlessly into your projects. The modular design allows for easy expansion and customization.
+🛠️ **Customizable and Expandable:** Adapt the system to your specific requirements and integrate it seamlessly into your projects. The modular design allows for easy expansion and customization.
 
 ## Hardware Requirements
 **LCD display**: The system requires an LCD display to show messages and password input/output.
