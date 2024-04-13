@@ -24,7 +24,7 @@ This is a password system implementation using an LCD display, a keypad, and som
 
 **Buttons**: Start button and other buttons for navigation and system control.
 
-**PIC18f4620**
+**PIC18f4620 microcontroller**
 
 ## Usage
 Connect the LCD display, keypad, and buttons to the appropriate pins of your microcontroller or development board.
